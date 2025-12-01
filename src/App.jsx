@@ -9,6 +9,7 @@ import ProductDetails from './pages/ProductDetails'
 import Dashboard from './pages/Dashboard'
 import ProtectedRoute from './components/ProtectedRoute'
 import SmoothScroll from './components/SmoothScroll'
+import Reveal from './components/Reveal'
 
 export default function App() {
   return (
@@ -34,7 +35,9 @@ export default function App() {
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
-        <Footer />
+        <Reveal width="100%">
+          <Footer />
+        </Reveal>
       </div>
     </SmoothScroll>
   )

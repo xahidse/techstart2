@@ -10,7 +10,7 @@ export default function Hero() {
         Innovate. Explore. Connect.
       </div>
 
-      <h1 className="text-5xl sm:text-7xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-primary-100 to-primary-200">
+      <h1 className="text-5xl sm:text-7xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-primary-100 to-primary-200 pb-4">
         Powering the Future <br /> of Technology
       </h1>
 

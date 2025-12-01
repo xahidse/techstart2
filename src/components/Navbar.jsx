@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <header className="glass-panel sticky top-0 z-40 border-b-0 rounded-none">
-      <div className="container-base flex h-16 items-center justify-between">
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between">
         <Link to="/" className="font-bold text-xl text-white flex items-center gap-2">
           <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-primary to-secondary-DEFAULT flex items-center justify-center">
             <span className="text-white text-xs">🚀</span>
